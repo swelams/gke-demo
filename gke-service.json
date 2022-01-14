@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ambient-inquiry-337210",
+  "private_key_id": "d0899d6d91d2bdf0422be1867d4596ffd00a2173",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDeySAl07WonrCF\nR6xZwFDMMaVnGZMgcAjw6hGCMkcwXPIzACMLSxslyeTlSdbwU8N8MiPj+733o9Ef\nJrp4GxMcOcp6f8h6o+UFxW9UN6UMG/yGcBJEAyx+LjT+Yu/Go4eq2AAT+IQCBhIu\nj/78ZKK/lzKrF/XOEGJtYzacANX9jBso3BCf14r41UosGhtSrDE7G6XiLr65yACO\nVPRlYLli4oOFgOkypAKgFFA106IBaANlbNsiDTElM3fqzlmWsn2vI0OwUicoCr8g\npRaj8iQnIxeTnzzHQ16E7KbAdOPJSt1Ddh5pcuEx3kFag6iDyndk4xIFMC3Ci5BF\nKVAi28hfAgMBAAECggEAKT6pAffI6NfALFyRjugozTTfv0+fymCTdy6OYUE3pr9+\nY2zCECQueXeANebOsR2A0mxh8qI3kDI21AKSgQvaJN6aGsWvcu0GyGO98aR/nNdN\nkAINj6Pax918GCBu7aJ2ym1Ezm2y2sEO+qnT9hwXeUrfqYc9DZJA9qlogccx1seS\nDn3K8SNtrMRtuCOgvA7C8A/eRJRNX0SrUxqy0PBW7yGEaeCE+wcaG4IB5aUlwFlI\nwacrF8en0d6tXSPZ+bVY+iyVJtDNlxYOnsD1McjF3UraSHSI23WDxCC0ueUfRGVR\nMQllddBgj01TS2b1YP+6/qqwa46M1DCZvUFwukxliQKBgQDu54j6XZtW2Fr5nEwt\n5CnimOGgk962KcdKv5tNJ/t6I5b8NdfoT52tr8hWGMvIpC9k/Ho+xokEz68ZZ9XZ\nmqjUUAJHqFbNSeHY+jYWRT0zf2xd+olRzzf6Fx0e4C/0TlOtpjbGc+a7qjFscnz5\nntFqgWZnso6/5MtimDrhxfr1dQKBgQDuuk/psrVskFhVkkls5nhekUmw0GvNJ8qk\nC+nIanXwfnp8CSWphf7RST/xFxRlGHULpK6R/6zyIW7dJ5AugfMHS6RoAooEZWo1\nRvTxKaRtNDifUpiZ99jFF9zOMBzoBXNCeD9lesB8jQ7Tf5l0ro4TfAAtMpoprZ0c\n0e+iVhpIAwKBgEQlW1c/OD4vfNPSl5BHkwMF5OYvB8oiZKyXty7tBriySjErEqk7\nfJi8mYKllAtpefNuaVhavV7X9vRiQAfQK/RT1jKmfAwW1QtVY/Q6T9jOshSkkGL7\nntYBndbe0A76ALh5vwogqWJCi9KJXci+WrHss09FCZ8HHlTDY5hfJtS5AoGBAJRt\nPIBVv10nhfR2RraxuMc7V/DaNRxSEDjcu1cDch671JXH7iWvjRY8j8frDKAqi6NY\nmb1mlPXaeZ6BGbEA1MSFcEvGwF8pWtaTLnm+5V+MZ2QPq5eXNKyeQIfl/CL6OIZs\nUyZaItGNtlkjbZrRaL6Oi2GOo7EkI5omoPJyzFZXAn99UsHEzO7bJmHGfjhFxYom\nS52Vp0RwdPp0VXw+SJeVYrjuBgzbKj7roFZ/vh9uhGpcV+zkEBavGD3hUVuKzWq3\nmk0gVdX4pRColUxHUphoGMcobFCxbb2vvN6JLu4GLm+abMnvEcBnnnxb3KkJYCMl\nWH+1XEFfoiKd/z1+B9Tb\n-----END PRIVATE KEY-----\n",
+  "client_email": "gke-cluster@ambient-inquiry-337210.iam.gserviceaccount.com",
+  "client_id": "103968185315754698834",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-cluster%40ambient-inquiry-337210.iam.gserviceaccount.com"
+}

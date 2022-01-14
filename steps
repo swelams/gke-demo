@@ -1,0 +1,19 @@
+1-create Dockerfile 
+2-docker compose
+3-build image 
+4-push to docker hup 
+5-push to gcp artifact
+6-make your bucket public access 
+7-create deployment.yaml file and at images put the iamge path 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+8-craete your service account on the console and give it required permission 
+9-create your infrastructure as code in terraform (vpc-2subnet-vm-router-nat-gke cluster)
+10- put your service account credentials to gke cluster file and make authorized network the vm private ip adress only   
+10-access gke from the private vm and make your deployment by kubectl but first define enviromental variable 
+11-expose your deployment as loadbalancer as service to get the link  >>>> then task is done !! 
+
+
+
+
+
+gcr.io/ambient-inquiry-337210/f14e5e3958f8:latest  >>>>>>>>>>>iamge path 
