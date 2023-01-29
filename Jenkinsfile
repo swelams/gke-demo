@@ -5,7 +5,7 @@ pipeline {
     }
     parameters {
         string(name:'project-name', defaultValue:'', description:'this paramater help you to know project name')
-        choice (name:'tag', choices ['1.1','2.2','3.3'], description:'')
+        choice (name:'tag', choices ['1.1','2.2','3.3'], defaultValue:'', description:'')
 
     }
 
