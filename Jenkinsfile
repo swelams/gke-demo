@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-        maven 'maven-sprint'
-    }
     parameters {
         string(name:'project-name', defaultValue:'', description:'this paramater help you to know project name')
        
@@ -11,7 +8,7 @@ pipeline {
     stages {
         stage('check') {
             steps {
-                echo 'checking your code'
+                echo "checking your code"
             }
         }
 
@@ -22,13 +19,13 @@ pipeline {
                 }
             }
             steps {
-                echo 'testing your app' 
+                echo "testing your app" 
             }
         }
         
         stage('deployment') {  
             steps {
-                echo 'your code is deployed right now'
+                echo "your code is deployed right now"
             }
         }    
     }
