@@ -14,7 +14,7 @@ pipeline {
 
         stage('test') {
             steps {
-                echo "$(params.project-name)" 
+                echo "${params.project-name}" 
             }
         }
         
