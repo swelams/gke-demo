@@ -18,17 +18,17 @@ pipeline {
         stage('test') {
             when {
                 expression {
-                    params.project-name == ''
+                    params.project-name == 'sprint'
                 }
             }
             steps {
-                echo "testing your app" 
+                echo 'testing your app' 
             }
         }
         
         stage('deployment') {  
             steps {
-                echo 'your code is deployed right now '
+                echo 'your code is deployed right now'
             }
         }    
     }
