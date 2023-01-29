@@ -19,7 +19,7 @@ pipeline {
                 }
             }
             steps {
-                echo "$params.project-name" 
+                echo "testing your app" 
             }
         }
         
