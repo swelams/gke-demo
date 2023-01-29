@@ -13,11 +13,6 @@ pipeline {
         }
 
         stage('test') {
-            when {
-                expression {
-                    params.project-name == 'sprint'
-                }
-            }
             steps {
                 echo "testing your app" 
             }
