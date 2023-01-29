@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters {
-        string(name:'project', defaultValue:'', description:'this paramater help you to know project name')
+        booleanParam(name:'project', defaultValue:true, description:'this paramater help you to know project name')
        
     }
 
@@ -15,7 +15,7 @@ pipeline {
         stage('test') {
             when {
                 expression{
-                    params.project == sprint
+                    params.project == true
                 }
             }
             steps {
