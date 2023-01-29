@@ -11,8 +11,8 @@ pipeline {
         stage('check') {
             steps {
                 echo "checking your code"
-                echo params.version
-                echo params.namespace
+                echo "${params.version}"
+                echo "${params.nammspace}"
             }
         }
 
