@@ -13,6 +13,11 @@ pipeline {
         }
 
         stage('test') {
+            when {
+                expression{
+                    params.project-name == sprint
+                }
+            }
             steps {
                 echo "$params.project-name" 
             }
