@@ -14,7 +14,7 @@ pipeline {
 
         stage('test') {
             steps {
-                echo "testing your app" 
+                echo "$(params.project-name)" 
             }
         }
         
