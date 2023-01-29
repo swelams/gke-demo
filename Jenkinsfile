@@ -6,7 +6,6 @@ pipeline {
     parameters {
         string(name:'project-name', defaultValue:'', description:'this paramater help you to know project name')
        
-
     }
 
     stages {
@@ -19,11 +18,11 @@ pipeline {
         stage('test') {
             when {
                 expression {
-                    params.project-name == 'sprint'
+                    params.project-name == ''
                 }
             }
             steps {
-                echo "testing your app on ${params.tag}" 
+                echo "testing your app" 
             }
         }
         
